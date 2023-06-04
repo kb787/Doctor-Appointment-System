@@ -1,0 +1,275 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.registrationHeading 
+{
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   font-style:oblique ;
+   font-size:2vw ;
+   text-align:center ;
+   color:white
+}
+
+.registerForm 
+{
+   width:30vw ;
+   font-size:1.5vw ;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   font-style:oblique ;  
+}
+
+.registerFormInput 
+{
+   width:30vw ;
+   font-size:1.5vw ;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   font-style:oblique ;
+   margin-left:18vw ;
+
+}
+
+.Register 
+{
+    text-align:center ;
+    margin-left:20vw ;
+    background-color:maroon ;
+    width:65vw ;
+    height:25vw ;
+}
+
+.registerButton 
+{
+   font-size:1.5vw ;
+   width:13vw ;
+   background-color: red;
+   color:white ;
+   border-radius:0.55rem ;
+   margin-left:25vw ;
+}
+
+.registerButton:hover 
+{
+   transform:scale(1.5) ;
+   transform:scale(1.5) ;
+}
+
+
+.docAccountButton 
+{
+   font-size:1.5vw ;
+   width:16vw ;
+   background-color: red;
+   color:white ;
+   border-radius:0.55rem ;
+   margin-left:25vw ;
+   margin-bottom:1.5vw;
+}
+
+.docAccountButton:hover 
+{
+   transform:scale(1.5) ;
+   transform:scale(1.5) ;
+}
+
+.loginRedirect 
+{
+   margin-left:16.8vw ;
+   color:white ;
+   text-decoration:none ;   
+}
+
+.loginRedirect:hover 
+{
+   transform:scale(1.5) ;
+}
+
+
+
+.sidebar 
+{
+   background-color:maroon ;
+   width:19vw ;
+   height:77vw ;
+   color:white ;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-style: inherit;
+   margin-top:-82vw ;
+}
+
+
+.sidebarItems 
+{
+   text-decoration:none ;
+   font-size:1.75vw ;
+   list-style-type:none ;
+   text-align: left;
+   margin-top:5vw ;
+}
+
+.itemLinking 
+{
+  color:white ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none; 
+  margin-left:1vw ;  
+}
+
+.DocAccount 
+{
+  text-align:center ;
+  margin-left:20vw ;
+  background-color:maroon ;
+  width:65vw ;
+}
+
+.doctorCard 
+{
+   border:solid ;
+   border-radius: 0.45rem; 
+   border-color:darkgray ;
+   color:white ;
+
+}
+
+.doctorCardHeading 
+{
+   font-size:2vw ;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-style: oblique;
+}
+
+.doctorCardList 
+{
+    font-size:1.5vw ;
+    list-style-type:none ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    text-align:left;
+    margin-top: -1vw ;
+}
+
+.docProfileButton
+{
+   width:13vw ;
+   font-size:1.5vw ;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   background-color:red ;
+   color:white ;
+   border-radius:0.55rem ;
+   margin-bottom: 1vw ;
+}
+
+.docProfileButton:hover 
+{
+    transform:scale(1.25) ;
+    transform:scale(1.25) ;
+}
+
+.cardCollection 
+{
+   display:flex ;
+   list-style-type:none ;
+   gap:2vw ; 
+}
+
+.DocProfile 
+{
+    background-color:antiquewhite; 
+    color:white ;
+    margin-top:-1vw ;
+}
+
+.doctorCard 
+{
+    margin-top:1vw ;
+    background-color: maroon;
+    margin-bottom:1vw ; 
+}
+
+.doctorCard:hover 
+{
+   transform:scale(1.35) ;
+   transform:scale(1.35) ; 
+}
+
+.homepageHeader
+{
+   background-color: red;
+   color:white ;  
+   margin-left:19vw ;
+   height:5vw ;  
+   margin-top:-1.65vw ;
+   margin-right:-1vw ;
+}
+
+.homepageHeading 
+{
+    font-size:2.5vw ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:oblique ;
+}
+
+
+
+.homepageMain 
+{
+   margin-left:19vw ;
+   background-color: antiquewhite;
+   height:72vw ;
+   margin-top:-3.3vw ;
+   margin-right:-1vw ; 
+}
+
+.homepageHeading 
+{
+   font-size:2vw ;
+   text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.doctorPara
+{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size:1.5vw ;
+}
+
+.homePageFooter 
+{
+   font-size: 2vw ; 
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
