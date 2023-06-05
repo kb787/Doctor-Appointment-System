@@ -25,7 +25,7 @@ const DocAccount = () =>
         e.preventDefault() ;
         try 
         {
-            const accountResponse = axios.post("http://localhost:3500/api/doctors/postNewDoctorAccount" , {
+            const accountResponse = axios.post("http://localhost:3500/v2/api/doctors/postNewDoctorAccount" , {
                  docId:docId ,
                  email:email ,
                  password:password ,
