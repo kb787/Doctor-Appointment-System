@@ -19,7 +19,7 @@ const UserProfile = () =>
     const handleUserProfSub = async(e) => 
     {
         e.preventDefault() ;
-        var profRes = await axios.post("http://localhost:3500/api/profiles/postNewProfile" , 
+        var profRes = await axios.post("http://localhost:3500/v1/api/profiles/postNewProfile" , 
         {
              userProfileId:userProfileId,
              userProfileFirstName:userProfileFirstName,
