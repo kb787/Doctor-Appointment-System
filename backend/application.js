@@ -24,8 +24,8 @@ app.get("/" , (req,res) =>
 )
 
 app.use("/api/users",usersRouter) ;
-app.use("/api/doctors",doctorsRouter) ;
-app.use("/api/profiles",profilesRouter) ;
+app.use("/v1/api/doctors",doctorsRouter) ;
+app.use("/v2/api/profiles",profilesRouter) ;
  
 server.listen(3500 , () => 
 {
